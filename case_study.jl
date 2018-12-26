@@ -96,4 +96,4 @@ zcost = getobjectivevalue(m)
 #unit_cost_prod1 = (zcost - 3310030058.9)/3053378
 
 tot_supply = sum(dir1_data[1:end, :Supply])
-unit_cost_prod1 = (zcost - outsourced_mass)/tot_supply
+unit_cost_prod1 = (zcost - outsourced_mass*out_scr)/tot_supply
